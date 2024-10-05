@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.game-buttons {
+    margin: 20px;
+}
+
+#game-container {
+    display: none;
+}
+
+.tic-tac-toe-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.tic-tac-toe-cell {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.tic-tac-toe-cell:hover {
+    background-color: #f5f5f5;
+}
+
+.car-race-canvas {
+    border: 1px solid #000;
+}
